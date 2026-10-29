@@ -1,0 +1,10 @@
+.superpowers/
+.DS_Store
+xcuserdata/
+DerivedData/
+.build/
+*.xcuserstate
+Cleanori.xcodeproj/
+Config/Local.xcconfig
+build/
+docs/superpowers/

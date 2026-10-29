@@ -1,0 +1,25 @@
+{
+  "devices" : {
+    "com.apple.CoreSimulator.SimRuntime.iOS-26-3" : [
+      {
+        "lastBootedAt" : "2026-10-27T16:00:31Z",
+        "dataPath" : "\/Users\/someone\/Library\/Developer\/CoreSimulator\/Devices\/ABC\/data",
+        "dataPathSize" : 6441480192,
+        "logPath" : "\/Users\/someone\/Library\/Logs\/CoreSimulator\/ABC",
+        "udid" : "ABC",
+        "isAvailable" : false,
+        "availabilityError" : "runtime profile not found",
+        "logPathSize" : 4136960,
+        "deviceTypeIdentifier" : "com.apple.CoreSimulator.SimDeviceType.iPhone-17",
+        "state" : "Shutdown",
+        "name" : "iPhone 17"
+      }
+    ],
+    "com.apple.CoreSimulator.SimRuntime.watchOS-26-2" : [
+
+    ],
+    "com.apple.CoreSimulator.SimRuntime.tvOS-26-2" : [
+
+    ]
+  }
+}

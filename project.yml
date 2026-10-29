@@ -1,0 +1,35 @@
+name: Cleanori
+options:
+  bundleIdPrefix: dev.ori
+  deploymentTarget:
+    macOS: "15.0"
+  createIntermediateGroups: true
+packages:
+  CleanoriCore:
+    path: Packages/CleanoriCore
+targets:
+  Cleanori:
+    type: application
+    platform: macOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: App
+    dependencies:
+      - package: CleanoriCore
+    configFiles:
+      Debug: Config/Base.xcconfig
+      Release: Config/Base.xcconfig
+    entitlements:
+      path: App/Cleanori.entitlements
+    settings:
+      base:
+        PRODUCT_NAME: Cleanori
+        INFOPLIST_FILE: App/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        PRODUCT_BUNDLE_IDENTIFIER: dev.ori.Cleanori
+        MARKETING_VERSION: "0.1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        ENABLE_HARDENED_RUNTIME: YES
+        SWIFT_VERSION: "6.0"
+        SWIFT_STRICT_CONCURRENCY: complete
